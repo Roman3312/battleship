@@ -1,0 +1,36 @@
+nav {
+    transform: translate(0px,600px);
+    position: absolute;
+}
+#one {
+    width: 600px;
+    height: 600px;
+    background-color: #7afc96;
+    position: relative;
+    margin: auto;
+}
+#two{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+}
+button {
+    width: 100px;
+    height: 50px;
+}
+html {
+        background: url(image/battleship.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+ul{
+    color: lawngreen;
+}
+h1{
+    color: aqua;
+}
+
+
