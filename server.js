@@ -24,7 +24,10 @@ const server = http.createServer(function (req,res) {
     const html = fs.readFileSync('indexmove.html','utf8');
    res.end(html);
 });
-console.log('port=' ,process.evn.PORT);
-  server.listen(process.evn.PORT || 3000);
- //server.listen(process.evn.PORT);
+console.log('port=' ,process.env.PORT);
+  server.listen(process.env.PORT || 3000);
+ //server.listen(process.env.PORT);
  console.log('Server started');
+ // git add --all
+//git commit -am 'Add PORT'
+// git push
