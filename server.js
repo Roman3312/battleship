@@ -8,10 +8,10 @@ const server = http.createServer(function (req,res) {
     } else if (req.url == '/scriptmove.js'){
         const script = fs.readFileSync('scriptmove.js','utf8');
         res.end(script);
-    }/* else if (req.url == '/image/battleship.jpg'){
-        const image = fs.readFileSync('image/battleship.jpg.js');
+    } else if (req.url == '/image/1937015.jpg'){
+        const image = fs.readFileSync('image/1937015.jpg');
         res.end(image);
-    }*/ else if (req.url == '/favicon.ico'){
+    } else if (req.url == '/favicon.ico'){
         const favicon = fs.readFileSync('favicon.ico');
         res.end(favicon);
     } else {

@@ -1,3 +1,8 @@
+body{
+    font-family: Palatino Linotype,Book Antiqua  ;
+    padding: 0;
+    margin: 0;
+}
 nav {
     transform: translate(0px,600px);
     position: absolute;
@@ -20,7 +25,7 @@ button {
     height: 50px;
 }
 html {
-        background: url(image/battleship.jpg) no-repeat center center fixed;
+        background: url('image/1937015.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -29,8 +34,52 @@ html {
 ul{
     color: lawngreen;
 }
-h1{
-    color: aqua;
-}
 
+
+.heading {
+    letter-spacing: 60px;
+    word-spacing: 110px;
+    font-size: 50px;
+    padding-top:  15px;
+    height: 40px;
+    background-color: #909BD2;
+    border: 4px ridge ;
+    text-align: center;
+    line-height: 50%;
+    box-shadow: inset 0 0 20px 5px black;
+    margin: 0;
+    color: #18194a;
+    text-shadow: -5px 0px 6px black;
+
+
+;
+}
+.caption{
+    /*border: 4px ridge #005FD2;*/
+    width: 500px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: #10D2D2;*
+    border: 4px ridge #005FD2;
+    box-shadow: inset 0 0 20px 5px #0B9AD2;*/
+}
+#MainMenu{
+    text-align: center;
+    list-style-type: none;
+}
+input[value]{
+    font-size: 25px;
+    text-shadow: -2px -1px 2px black;
+
+}
+input[type=button]{
+    width: 200px;
+    height: 50px;
+    background-color:#909BD2;
+    box-shadow: inset 0 0 16px 7px black
+}
+li{
+    margin-bottom: 20px;
+}
 
